@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sounds of Animals"
+        android:gravity="center"
+        android:fontFamily="@font/readytoparty"
+        android:layout_marginTop="20dp"
+        android:textSize="40sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/cow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/img_bg"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/waterfallimg" />
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent" />
+
+                    <ImageButton
+                        android:id="@+id/bat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/img_bg"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/thunder" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+
+                    <SeekBar
+                        android:id="@+id/seekbar"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center" />
+
+                    <SeekBar
+                        android:id="@+id/seekbar1"
+                        android:layout_width="150dp"
+                        android:layout_marginStart="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center" />
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageButton
+                        android:id="@+id/bear"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:layout_weight="1"
+                        android:background="@drawable/img_bg"
+                        android:src="@drawable/calmlake"/>
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"/>
+                    <ImageButton
+                        android:id="@+id/deer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:layout_weight="1"
+                        android:background="@drawable/img_bg"
+                        android:src="@drawable/carinterior"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+
+
+                    <SeekBar
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/seekbar2"
+                        android:layout_gravity="center"/>
+
+
+
+                    <SeekBar
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/seekbar3"
+                        android:layout_marginStart="40dp"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageButton
+                        android:id="@+id/dog"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:layout_weight="1"
+                        android:background="@drawable/img_bg"
+                        android:src="@drawable/driftingaway"/>
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"/>
+                    <ImageButton
+                        android:id="@+id/duck"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:layout_weight="1"
+                        android:background="@drawable/image_bg"
+                        android:src="@drawable/duck"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+
+                    <SeekBar
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/seekbar4"
+                        android:layout_gravity="center"/>
+                    <SeekBar
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/seekbar5"
+                        android:layout_marginStart="40dp"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/goat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:layout_weight="1"
+                        android:background="@drawable/image_bg"
+                        android:src="@drawable/goat"/>
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"/>
+                    <ImageButton
+                        android:id="@+id/sheep"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:layout_weight="1"
+                        android:background="@drawable/image_bg"
+                        android:src="@drawable/sheep"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+
+                    <SeekBar
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/seekbar6"
+                        android:layout_gravity="center"/>
+                    <SeekBar
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/seekbar7"
+                        android:layout_marginStart="40dp"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/pig"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:layout_weight="1"
+                        android:background="@drawable/image_bg"
+                        android:src="@drawable/pig"/>
+
+                    <View
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"/>
+                    <ImageButton
+                        android:id="@+id/swan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        android:layout_weight="1"
+                        android:background="@drawable/image_bg"
+                        android:src="@drawable/swan"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:orientation="horizontal">
+
+                    <SeekBar
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/seekbar8"
+                        android:layout_gravity="center"/>
+
+                    <SeekBar
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/seekbar9"
+                        android:layout_marginStart="40dp"
+                        android:layout_gravity="center"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
